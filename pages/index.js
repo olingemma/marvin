@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from "next/link";
+import {DoubleArrow} from "@mui/icons-material";
+import Nav from "../components/nav";
 
 export default function Home() {
   return (
@@ -10,8 +13,23 @@ export default function Home() {
         <meta name="description" content="Asiimwe marvin is an architect" />
         <link rel="icon" href="/icon.png" />
       </Head>
+      <Nav/>
       <main className={styles.main}>
-        <h1>Marvins website</h1>
+        
+        <div styles={styles.hero}>
+          <Image src="/marvin.jpg" height={300} width={250} alt="marvin photo"/>
+          <div className={styles.text}>
+            <h3>Asiimwe Marvin</h3>
+            <p>CEO- AM Architects</p>
+          </div>
+        </div>
+        
+        <div className={styles.banner}>
+          <h1>AM Architects. Let us put your designs into focus</h1>
+          <Link href="/">
+            <a><button className={styles.button}><p>Portfolio</p><DoubleArrow/></button></a>
+          </Link>
+        </div>
       </main>
     </div>
   )
