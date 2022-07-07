@@ -8,7 +8,7 @@ function Card({name,source,filename}){
         <Link href={`/projects/${filename}`}>
             <a>
                 <div className={styles.card}>
-                    <Image src={source} height={100} width={150} alt={name}/>
+                    <Image src={source} height={180} width={250} alt={name}/>
                     <div className={styles.project}>
                         <h3>{name} <ArrowForward/></h3>
                     </div>

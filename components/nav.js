@@ -13,7 +13,7 @@ function Nav(){
     }
 
     return(
-      <div>
+      <div className={styles.nav}>
           <nav className={styles.navBar}>
               <Link href="/">
                 <a><Image src="/logo.png" height={30} width={30} alt="logo"/></a>

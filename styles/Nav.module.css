@@ -1,3 +1,10 @@
+.nav{
+    position:fixed;
+    top:0;
+    z-index: 700;
+    width:100%;
+    background-color: var(--normal-page);
+}
 .navBar{
     margin:2rem auto;
     width:80%;
@@ -31,7 +38,7 @@
 
 
 .dropDown{
-    height:70vh;
+    height:90vh;
     background-color: var(--dark-theme);
     opacity:.8;
     position: absolute;

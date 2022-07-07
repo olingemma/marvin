@@ -26,13 +26,19 @@
     display: flex;
     align-items: center;
 }
-
+.mainImages{
+     position: relative;
+    top:5rem;
+}
 .main{
     width:90%;
     margin:2rem auto;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top:5rem;
 }
 
 .images{
@@ -54,6 +60,7 @@
 
 .img{
     margin:1rem;
+    animation:.5s anim;
 }
 
 .heading{
@@ -65,8 +72,18 @@
     margin:1rem auto;
 }
 
+@keyframes anim{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
 @media(max-width:900px){
     .main{
         flex-direction: column;
+        height: auto;
     }
 }
