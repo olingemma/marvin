@@ -18,10 +18,6 @@ export default function Home() {
         
         <div styles={styles.hero}>
           <Image src="/marvin.jpg" height={300} width={250} alt="marvin photo"/>
-          <div className={styles.text}>
-            <h3>Asiimwe Marvin</h3>
-            <p>CEO- AM Architects</p>
-          </div>
         </div>
         
         <div className={styles.banner}>

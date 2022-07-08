@@ -28,7 +28,7 @@ function Nav(){
                 <Link href="/projects">
                   <a className={styles.link}>Projects</a>
                 </Link>
-                <Link href="/">
+                <Link href="/contact">
                   <a className={styles.link}>Contact Us</a>
                 </Link>
               </div>
