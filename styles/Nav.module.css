@@ -4,6 +4,7 @@
     z-index: 700;
     width:100%;
     background-color: var(--normal-page);
+   
 }
 .navBar{
     margin:2rem auto;
@@ -75,5 +76,8 @@
     }
     .menuIcon{
         display:inline
+    }
+    .nav{
+         box-shadow: 0 2px 15px var(--dark-theme);
     }
 }
