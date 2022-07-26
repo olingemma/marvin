@@ -21,7 +21,7 @@ export default function Home() {
         </div>
         
         <div className={styles.banner}>
-          <h1>AM Architects. Let us put your designs into focus</h1>
+          <h1>Architecture, Engineering & Design Firm</h1>
           <Link href="/">
             <a><button className={styles.button}><p>Portfolio</p><DoubleArrow/></button></a>
           </Link>

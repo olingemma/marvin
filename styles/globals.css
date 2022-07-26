@@ -18,7 +18,8 @@ a {
 }
 
 :root{
-  --dark-theme:#06283D;
-  --light-theme:#DFF6FF;
-  --normal-page:#DFF6FF;
+  --dark-theme:black;
+  --text-theme:#1E3240;
+  --normal-page:#f2f2f2;
+  --orange-color:#ec6e0b;
 }

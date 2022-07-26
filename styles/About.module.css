@@ -1,0 +1,62 @@
+.main{
+    margin-top: 9rem;
+    color:var(--text-theme);
+}
+
+.heading{
+    margin:1rem auto;
+    width:12rem;
+}
+
+.heading h2{
+    width:5rem;
+    margin:0 auto;
+}
+
+.upperLine{
+    width:12rem;
+    border-bottom:1px solid var(--orange-color);
+    margin:4px auto;
+}
+
+.lowerLine{
+    width:6rem;
+    border-bottom:1px solid var(--orange-color);
+    margin:4px auto;
+}
+
+
+.hero{
+    display:flex;
+    flex-direction: row;
+    width:70%;
+    margin:0 auto;
+}
+
+.literature{
+    width:50%
+}
+
+.heroImage{
+    width:50%;
+}
+
+.exp{
+    width:70%;
+    display:flex;
+    flex-direction: row;
+    margin:2rem auto;
+    justify-content: space-evenly;
+}
+
+.expTab h3{
+    color:var(--orange-color);
+}
+
+.heroImage h4{
+    color:var(--orange-color);
+}
+
+.literature p{
+    text-align:justify;
+}
