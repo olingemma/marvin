@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>AM Architects</title>
         <meta name="description" content="Asiimwe marvin is an architect" />
-        <link rel="icon" href="/icon.png" />
+        <link rel="icon" href="/oicon.png" />
       </Head>
       <Nav/>
       <main className={styles.main}>

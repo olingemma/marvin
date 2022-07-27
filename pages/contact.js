@@ -1,6 +1,8 @@
 import { useState } from "react"
 import Nav from "../components/nav";
 import styles from "../styles/Contact.module.css";
+import Head from "next/head";
+
 
 export default function Contact(){
     const [data,setData]= useState({
@@ -27,10 +29,16 @@ export default function Contact(){
             return{name:"",email:"",message:""}
         })
     }
+    
 
     return (
         <div>
             <Nav/>
+            <Head>
+                <title>Contact</title>
+                <link rel="icon" href="/oicon.png"/>
+                <meta name="description" content="This is the contact me page for AM architects, kindly leave a message and we will get back to you as soon as possible."/>
+            </Head>
             <div className={styles.main}>
             <h1>Get in touch.</h1>
             <form className={styles.form} method='post' onSubmit={handleSubmit}>

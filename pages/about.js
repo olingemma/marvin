@@ -5,10 +5,16 @@ import Image from 'next/image';
 import Nav from '../components/nav';
 import literature from '../portfolio';
 
+
+
 function about() {
   return (
     <div>
         <Nav/>
+        <Head>
+            <link rel="icon" href="/oicon.png" />
+            <title>About</title>
+        </Head>
         <div className={styles.main}>
             <div className={styles.heading}>
                 <h2>About</h2>

@@ -46,7 +46,13 @@
     background-color: black;
     margin:0;
     padding:0;
-    text-align: left;
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+}
+
+.project h3{
+    width:70%;
 }
 
 .projects{
@@ -77,8 +83,47 @@
     margin:4px auto;
 }
 
+/* images section */
+.mainImages{
+    margin:7rem auto 4rem auto;
+    width:90%;
+}
+
+.headingX{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.headingX h1{
+    color:var(--orange-color)
+}
+
+.images{
+    display:flex;
+    flex-wrap:wrap;
+    justify-items: space-between;
+    align-items: center;
+    border:2px solid var(--orange-color);
+    box-sizing: border-box;
+}
+
+.img{
+    position:relative;
+    width:35%;
+    height:15rem;
+}
+
+/* responsive section */
 @media(max-width:900px){
     .projectsHeader h3{
         font-size:x-large
     }
+    .card {
+        width:20rem;
+        height:20rem;
+    }
+
 }
+

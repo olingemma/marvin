@@ -2,12 +2,16 @@ import projects from "../../projects";
 import Nav from "../../components/nav";
 import styles from "../../styles/Projects.module.css";
 import Card from "../../components/card";
-
+import Head from "next/head";
 
 function Projects(){
     return (
         <div className={styles.container}>
             <Nav/>
+            <Head>
+                <link rel="icon" href="/oicon.png" />
+                <title>Projects</title>
+            </Head>
             <main className={styles.main}>
                 <div className={styles.projectsHeader}>
                     <h3>We`re not only <span className={styles.span}>design</span> building but also crafting a <span className={styles.span}>masterpiece</span>.</h3>

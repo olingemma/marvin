@@ -36,7 +36,7 @@ function Post(props){
         <div>
             <Nav/>
             <main className={styles.mainImages}>
-                <div className={styles.heading}>
+                <div className={styles.headingX}>
                     <Link href="/projects">
                         <a>
                             <ArrowBack className={styles.icon}/>
@@ -47,7 +47,7 @@ function Post(props){
                 </div>
                 <div className={styles.images}>
                     {props.data[0].images.map((item,index)=>{
-                        return <div key={index} className={styles.img}><Image height={350} width={650} src={`/projects/${props.data[0].filename}/${item}`} alt={item}/></div>
+                        return <div key={index} className={styles.img}><Image layout="fill" src={`/projects/${props.data[0].filename}/${item}`} alt={item}/></div>
                     })}
                 </div>
             </main>
