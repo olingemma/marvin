@@ -22,7 +22,7 @@ export default function Home() {
         
         <div className={styles.banner}>
           <h1>Architecture, Engineering & Design Firm</h1>
-          <Link href="/">
+          <Link href="/about">
             <a><button className={styles.button}><p>Portfolio</p><DoubleArrow/></button></a>
           </Link>
         </div>

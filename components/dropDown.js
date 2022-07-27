@@ -9,7 +9,7 @@ function Dropdown(){
                 <Link href="/">
                     <a className={styles.link}>Home</a>
                 </Link>
-                <Link href="/">
+                <Link href="/about">
                     <a className={styles.link}>About</a>
                 </Link>
                 <Link href="/projects">
