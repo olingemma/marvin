@@ -8,18 +8,14 @@ import Nav from "../components/nav";
 export default function Home() {
   return (
     <div className={styles.container}>
+      <div className={styles.background}></div>
       <Head>
         <title>AM Architects</title>
         <meta name="description" content="Asiimwe marvin is an architect" />
         <link rel="icon" href="/oicon.png" />
       </Head>
       <Nav/>
-      <main className={styles.main}>
-        
-        <div styles={styles.hero}>
-          <Image src="/marvin.jpg" height={300} width={250} alt="marvin photo"/>
-        </div>
-        
+      <main className={styles.main}>       
         <div className={styles.banner}>
           <h1>Architecture, Engineering & Design Firm</h1>
           <Link href="/about">

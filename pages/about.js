@@ -21,7 +21,7 @@ function about() {
                 </div>
                 <div className={styles.hero}>
                     <div className={styles.heroImage}>
-                        <Image src="/marvin.jpg" height={350} width={300} alt="Marvin profile"/>
+                        <Image src="/marvin2.png" height={350} width={300} alt="Marvin profile"/>
                         <h4>Marvin Asiimwe</h4>
                         <p>CEO- AM Architects</p>
                     </div>
