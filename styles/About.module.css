@@ -68,6 +68,20 @@
         align-items: center;
     }
     .literature{
+        width:95%;
+    }
+    .exp{
+        flex-direction: column;
+        align-items:center;
+        width:80%;
+    }
+    .expTab h3, .expTab p{
+        display: inline-block;
+        margin-right: 1.5rem;
+    }
+    .expTab{
+        flex-direction: row;
+        justify-content: flex-end;
         width:80%;
     }
 }
