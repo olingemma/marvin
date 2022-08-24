@@ -60,3 +60,14 @@
 .literature p{
     text-align:justify;
 }
+
+@media(max-width:900px){
+    .hero{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .literature{
+        width:80%;
+    }
+}
