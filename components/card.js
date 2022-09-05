@@ -9,12 +9,11 @@ function Card({name,source,filename,handleClick}){
             <a>
                 <div className={styles.card} onClick={handleClick}>
                     <div className={styles.imgDiv}>
-                        <Image src={source} layout="fill"  alt={name}/>
+                        <Image className={styles.image} src={source} layout="fill"  alt={name}/>
                     </div>
-                                        
-                    <div className={styles.project}>
-                        <h3>{name}</h3>
-                    </div>
+                    <div className={styles.nameTitle}>
+                        <h1>{name}</h1>
+                    </div>                    
                 </div>
             </a>
         </Link>

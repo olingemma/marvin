@@ -44,10 +44,10 @@ export default function Contact(){
             {/* <h1>Get in touch.</h1> */}
                 <form className={styles.form} method='post' onSubmit={handleSubmit}>
                     <div className={styles.title}>Dear Asiimwe Marvin,</div>
-                    <textarea className={styles["input","message"]} onChange={handleData} placeholder="Write your message here..." value={data.message} name="message"/>
+                    <textarea className={styles["input","message"]} onChange={handleData} required placeholder="Write your message here..." value={data.message} name="message"/>
                     <div className={styles.best}>Best,</div>
-                    <input className={styles["input","name"]} onChange={handleData} placeholder="Your name" value={data.name} name="Your name"/>
-                    <input className={styles["input","email"]} onChange={handleData} placeholder="Your email"value={data.email} name="Your email"/>
+                    <input className={styles["input","name"]} onChange={handleData} placeholder="Your name" required value={data.name} name="Your name"/>
+                    <input className={styles["input","email"]} onChange={handleData} placeholder="Your email" required value={data.email} name="Your email"/>
                 
                     <button>Send email</button>
                     <div className={styles.link}>

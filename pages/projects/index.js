@@ -26,7 +26,7 @@ function Projects() {
                     </Head>
                     <main className={styles.main}>
                         <div className={styles.projectsHeader}>
-                            <h3>We`re not only <span className={styles.span}>design</span> building but also crafting a <span className={styles.span}>masterpiece</span>.</h3>
+                            <h3>We&apos;re not only <span className={styles.span}>design</span> building but also crafting a <span className={styles.span}>masterpiece</span>.</h3>
                         </div>
                         <div className={styles.heading}>
                             <h2>Projects</h2>

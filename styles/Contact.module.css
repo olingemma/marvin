@@ -82,9 +82,25 @@
     color:#fff;
     width:7rem;
     cursor:pointer;
+    transition:all .5s;
+}
+
+.form button:active{
+    color:black;
+    background-color: var(--normal-page);
+    border:1px solid black;
 }
 
 .link{
     grid-column: 2/6;
     align-self:end;
+}
+
+.link a{
+    cursor:pointer;
+    transition:all .5s
+}
+
+.link a:hover{
+    transform: scale(1.2,1.2);        
 }
