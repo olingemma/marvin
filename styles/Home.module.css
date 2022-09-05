@@ -4,7 +4,6 @@
     background-position: bottom right;
     background-size: 40% auto;
     background-repeat: no-repeat;
-
     height: 100vh;
 }
 
@@ -83,15 +82,22 @@
 @media(max-width:900px) {
     .main {
         flex-direction: column;
+        /* border:3px solid black; */
+        align-items: flex-start;
+        margin-left: 2rem;
     }
     .banner {
         font-size: x-large;
         line-height: 1;
-        color:var(--orange-color);
+        color:var(--dark-theme);
     }
     .banner button{
         background-color: black;
-        color:var(--orange-color);
+        color:var(--normal-page);
     }
-    
+    .container{
+        background-repeat: no-repeat;
+        background-size: 400px;   
+        background-position: bottom right;     
+    }    
 }

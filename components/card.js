@@ -3,11 +3,11 @@ import Image from "next/image";
 import {ArrowForward} from "@mui/icons-material";
 import Link from "next/link";
 
-function Card({name,source,filename}){
+function Card({name,source,filename,handleClick}){
     return (
-        <Link href={`/projects/${filename}`}>
+        <Link href={`/projects/${filename}`} >
             <a>
-                <div className={styles.card}>
+                <div className={styles.card} onClick={handleClick}>
                     <div className={styles.imgDiv}>
                         <Image src={source} layout="fill"  alt={name}/>
                     </div>

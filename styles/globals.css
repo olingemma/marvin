@@ -23,3 +23,22 @@ a {
   --normal-page:#f2f2f2;
   --orange-color:#ec6e0b;
 }
+
+::-webkit-scrollbar{
+  width:.5rem;
+}
+
+::-webkit-scrollbar-track{
+  background:var(--normal-page);
+}
+::-webkit-scrollbar-thumb{
+  background:rgba(0, 0, 0, 0.772);
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: black;
+}
+::-webkit-scrollbar-thumb:active{
+  background: gray;
+}
+

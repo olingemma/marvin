@@ -82,7 +82,24 @@
     border-bottom: 1px solid var(--orange-color);
     margin: 4px auto;
 }
+/* Loaders */
+.loader{
+    position: fixed;
+    width:10rem;
+    height:10rem;
+    z-index:100;
+    background-color: black;
+    top:30%;
+    left:45%;
+    margin:auto;
+    border-radius:1rem;
+}
 
+.climber{
+    position:relative;
+    top:35%;
+    left:38%;
+}
 /* images section */
 .mainImages {
     margin: 7rem auto 4rem;
