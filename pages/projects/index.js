@@ -21,7 +21,7 @@ function Projects() {
                 <div className={styles.container}>
                     <Nav/>
                     <Head>
-                        <link rel="icon" href="/oicon.png"/>
+                        <link rel="icon" href="/logo.png"/>
                         <title>Projects</title>
                     </Head>
                     <main className={styles.main}>

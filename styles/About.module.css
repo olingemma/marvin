@@ -15,13 +15,13 @@
 
 .upperLine{
     width:12rem;
-    border-bottom:1px solid var(--orange-color);
+    border-bottom:2px solid var(--dark-theme);
     margin:4px auto;
 }
 
 .lowerLine{
     width:6rem;
-    border-bottom:1px solid var(--orange-color);
+    border-bottom:3px solid var(--dark-theme);
     margin:4px auto;
 }
 
@@ -50,11 +50,15 @@
 }
 
 .expTab h3{
-    color:var(--orange-color);
+    color:var(--dark-theme);
 }
 
 .heroImage h4{
-    color:var(--orange-color);
+    color:var(--dark-theme);
+}
+
+.image{
+    filter:grayscale(100%);
 }
 
 .literature p{

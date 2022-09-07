@@ -38,7 +38,7 @@ function Post(props){
             <Nav/>
             <Head>
                 <title>{title}</title>
-                <link rel="icon" href="/oicon.png"/>
+                <link rel="icon" href="/logo.png"/>
             </Head>
             <main className={styles.main}>
                 <div className={styles.heading}>

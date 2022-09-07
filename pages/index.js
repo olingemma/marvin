@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import Link from "next/link";
 import {DoubleArrow} from "@mui/icons-material";
 import Nav from "../components/nav";
-
+ 
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>AM Architects</title>
         <meta name="description" content="Asiimwe marvin is an architect" />
-        <link rel="icon" href="/oicon.png" />
+        <link rel="icon" href="/logo.png" />
       </Head>
       <Nav/>
       <main className={styles.main}>       

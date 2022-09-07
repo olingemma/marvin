@@ -40,7 +40,7 @@
     border: 0;
     height: 3.6rem;
     width: 8rem;
-    background-color: var(--orange-color);
+    background-color: var(--dark-theme);
     color: var(--normal-page);
     font-size: 1rem;
     display: flex;
@@ -79,6 +79,7 @@
         opacity: 1;
     }
 }
+
 @media(max-width:900px) {
     .main {
         flex-direction: column;

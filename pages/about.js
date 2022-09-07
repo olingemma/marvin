@@ -5,12 +5,13 @@ import Image from 'next/image';
 import Nav from '../components/nav';
 import literature from '../portfolio';
 
+
 function about() {
     return (
         <div>
             <Nav/>
             <Head>
-                <link rel="icon" href="/oicon.png"/>
+                <link rel="icon" href="/logo.png"/>
                 <title>About</title>
             </Head>
             <div className={styles.main}>
@@ -21,7 +22,7 @@ function about() {
                 </div>
                 <div className={styles.hero}>
                     <div className={styles.heroImage}>
-                        <Image src="/marvin2.png" height={350} width={300} alt="Marvin profile"/>
+                        <Image src="/marvin2.png" className={styles.image} height={400} width={300} alt="Marvin profile"/>
                         <h4>Marvin Asiimwe</h4>
                         <p>CEO- AM Architects</p>
                     </div>
