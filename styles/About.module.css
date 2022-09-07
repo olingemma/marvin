@@ -57,9 +57,9 @@
     color:var(--dark-theme);
 }
 
-.image{
+/* .image{
     filter:grayscale(100%);
-}
+} */
 
 .literature p{
     text-align:justify;
