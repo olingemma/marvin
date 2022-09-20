@@ -21,16 +21,19 @@ export default function Contact(){
 
     async function handleSubmit(e){
         e.preventDefault();
-        await fetch('/api/mail',{
-            method:'POST',
-            body:JSON.stringify(data)
+      
+        try{
+            await fetch('/api/mail',{
+            method:"POST",
+            headers:{
+                "Content-Type":"application/json",
+                body:JSON.stringify(data)
+            }
         })
-        console.log(data)
-        setData(prevState=>{
-            return{name:"",email:"",message:""}
-        })
-    }
-    
+        }catch(err){
+            console.log(err)
+        }
+}
 
     return (
         <div>
@@ -46,8 +49,8 @@ export default function Contact(){
                     <div className={styles.title}>Dear Asiimwe Marvin,</div>
                     <textarea className={styles["input","message"]} onChange={handleData} required placeholder="Write your message here..." value={data.message} name="message"/>
                     <div className={styles.best}>Best,</div>
-                    <input className={styles["input","name"]} onChange={handleData} placeholder="Your name" required value={data.name} name="Your name"/>
-                    <input className={styles["input","email"]} onChange={handleData} placeholder="Your email" required value={data.email} name="Your email"/>
+                    <input className={styles["input","name"]} onChange={handleData} placeholder="Your name" required value={data.name} name="name"/>
+                    <input className={styles["input","email"]} onChange={handleData} placeholder="Your email" required value={data.email} name="email"/>
                 
                     <button>Send email</button>
                     <div className={styles.link}>
