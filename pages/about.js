@@ -14,6 +14,7 @@ function about() {
                 <link rel="icon" href="/logo.png"/>
                 <title>About</title>
             </Head>
+
             <div className={styles.main}>
                 <div className={styles.heading}>
                     <h2>About</h2>
@@ -22,7 +23,7 @@ function about() {
                 </div>
                 <div className={styles.hero}>
                     <div className={styles.heroImage}>
-                        <Image src="/marvin2.png" className={styles.image} height={400} width={300} alt="Marvin profile"/>
+                        <Image src="/marvin2.png" className={styles.image} height={500} width={400} alt="Marvin profile"/>
                         <h4>Marvin Asiimwe</h4>
                         <p>CEO- AM Architects</p>
                     </div>

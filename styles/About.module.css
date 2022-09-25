@@ -1,6 +1,7 @@
 .main{
-    margin-top: 9rem;
+    margin-top: 10rem;
     color:var(--text-theme);
+    /* border:3px solid black; */
 }
 
 .heading{
@@ -39,6 +40,7 @@
 
 .heroImage{
     width:50%;
+    /* border:3px solid black; */
 }
 
 .exp{
@@ -55,6 +57,7 @@
 
 .heroImage h4{
     color:var(--dark-theme);
+    /* border:3px solid black; */
 }
 
 /* .image{
@@ -70,9 +73,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width:90%;
     }
     .literature{
-        width:95%;
+        width:100%;
     }
     .exp{
         flex-direction: column;
