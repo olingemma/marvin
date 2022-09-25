@@ -33,16 +33,24 @@ function Projects() {
                             <div className={styles.lowerLine}></div>
                             <div className={styles.upperLine}></div>
                         </div>
-                        <div className={styles.projects}>
-                            {projects.map((project, index) => {
-                                return <Card
-                                    handleClick={()=>{setLoading(true)}}
-                                    key={index}
-                                    filename={project.filename}
-                                    source={`/projects/${project.filename}/${project.images[0]}`}
-                                    name={project.name}/>
-                            })
-        }
+                        <div className={styles.projectDiv}>
+                            <div className={styles.titles}>
+                                {projects.map((project,index)=>{
+                                    return <p key={index}>{project.name}</p>
+                                })}
+                            </div>
+                            <div className={styles.projects}>
+                                {projects.map((project, index) => {
+                                    return <Card
+                                        className={styles.project}
+                                        handleClick={()=>{setLoading(true)}}
+                                        key={index}
+                                        filename={project.filename}
+                                        source={`/projects/${project.filename}/${project.images[0]}`}
+                                        name={project.name}/>
+                                })
+            }
+                            </div>
                         </div>
 
                     </main>

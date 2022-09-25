@@ -1,0 +1,14 @@
+.main{
+    margin:0;
+    height:7rem;
+    width:100%;
+    background-color:black;
+    color:#fff;
+    display:flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+
+.icon{
+    margin:0 .5rem;
+}
